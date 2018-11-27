@@ -114,10 +114,3 @@ color:black;
 margin-left: 20px;
 font-family: 'Roboto Mono', monospace;
 }
-
-.cafe-review img {
-  margin-left: 5px;
-  margin-right: 5px;
-  width:300px;
-  box-shadow: 5 0 10px #000;
-}
