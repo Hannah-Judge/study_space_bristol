@@ -64,11 +64,12 @@ text-align: center;
    text-align: justify;
    font-family: 'Roboto Mono', monospace;
  }
- #about h1 {
+ #about h2 {
  color:black;
  text-align: center;
  font-family: 'Cabin Sketch', cursive;
  font-size: 60px;
+ font-weight:bold;
  }
 
  .location-header {
