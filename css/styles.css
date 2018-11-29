@@ -1,6 +1,7 @@
 
  body {
    background-image: url(../images/wood-background.jpg);
+   padding-top: 70px
  }
 
  #wrapper {
@@ -130,5 +131,5 @@ font-family: 'Roboto Mono', monospace;
 .caption
 {
 display: none;
-color:black;    
+color:black;
 }
