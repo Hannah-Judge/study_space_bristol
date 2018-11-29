@@ -50,7 +50,7 @@ text-align: center;
  }
  #about {
    width: 960px;
-   height: 700px;
+   height: 1400px;
    background-image: url(../images/about-background.jpg);
    margin: 0 auto;
    border:2px solid #000;
@@ -64,13 +64,21 @@ text-align: center;
    text-align: justify;
    font-family: 'Roboto Mono', monospace;
  }
- #about h2 {
+ #about h1 {
  color:black;
  text-align: center;
  font-family: 'Cabin Sketch', cursive;
  font-size: 60px;
  font-weight:bold;
  }
+ #about h2 {
+ color:black;
+ font-family: 'Cabin Sketch', cursive;
+ font-size: 40px;
+ font-weight:bold;
+ margin-left: 10px;
+ }
+
 
  .location-header {
    width: 960px;
