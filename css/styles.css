@@ -128,8 +128,9 @@ font-family: 'Roboto Mono', monospace;
 .navbar {
   box-shadow: 0 0 15px #000;
 }
-.caption
-{
-display: none;
-color:black;
+/*small resolution breakpoint*/
+@media screen and (max-width:705px) {
+  #about img {
+    width: 100%;
+  }
 }
