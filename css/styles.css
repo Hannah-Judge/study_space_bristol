@@ -134,4 +134,7 @@ font-family: 'Roboto Mono', monospace;
     height: auto;
     width: 100%;
   }
+  .cafe-review p {
+    font-size: 40px;
+  }
 }
