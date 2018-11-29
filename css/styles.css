@@ -128,13 +128,8 @@ font-family: 'Roboto Mono', monospace;
 .navbar {
   box-shadow: 0 0 15px #000;
 }
-/*small resolution breakpoint*/
+/*small screen breakpoint*/
 @media screen and (max-width:705px) {
-  .cafe-review img {
-    height: auto;
-    width: 100%;
+  #about {
+    width: 650px;
   }
-  .cafe-review p {
-    font-size: 40px;
-  }
-}
