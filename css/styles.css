@@ -129,7 +129,4 @@ font-family: 'Roboto Mono', monospace;
   box-shadow: 0 0 15px #000;
 }
 /*small screen breakpoint*/
-@media screen and (max-width:705px) {
-  #about {
-    width: 200px;
-  }
+@media screen and (max-width:705px) 
