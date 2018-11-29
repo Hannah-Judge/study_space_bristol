@@ -129,4 +129,15 @@ font-family: 'Roboto Mono', monospace;
   box-shadow: 0 0 15px #000;
 }
 /*small screen breakpoint*/
-@media screen and (max-width:705px) 
+@media screen and (max-width:705px) {
+  #about {
+    width: 650px;
+  }
+  #wrapper {
+  width: 650px;
+  }
+
+.cafe-review {
+    width: 650px;
+  }
+}
