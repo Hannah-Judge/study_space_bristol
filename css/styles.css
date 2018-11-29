@@ -127,3 +127,8 @@ font-family: 'Roboto Mono', monospace;
 .navbar {
   box-shadow: 0 0 15px #000;
 }
+.caption
+{
+display: none;
+color:black;    
+}
