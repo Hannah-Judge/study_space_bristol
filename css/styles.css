@@ -124,5 +124,5 @@ font-family: 'Roboto Mono', monospace;
 .img-circle {
   border-radius: 50%;
   height:100px;
-  float:right;
+  border: 3px solid #000;
 }
