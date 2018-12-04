@@ -128,3 +128,9 @@ font-family: 'Roboto Mono', monospace;
   border: 3px solid #000;
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+.thumbnail {
+padding: 0;
+border: 0;
+}
