@@ -4,36 +4,29 @@
   <title>Study Space: Bristol</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href='css/bootstrap.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+
  </head>
 
 <body>
 
-  <header>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-   <div class="container">
-     <div class="navbar-header">
-     <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        </button>
-   </div>
-   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-9">
-     <ul class="nav navbar-nav">
-       <li class="active"><a href="#">HOME</a></li>
-       <li><a href="about.html">ABOUT</a></li>
-     </ul>
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+  <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  </button>
+  <div class="collapse navbar-collapse navHeaderCollapse">
+    <ul class="nav navbar-nav">
+    <li class="active"><a href="index.html">HOME</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    </ul>
    </div>
   </div>
-  </nav>
-
-  </header>
+</div>
 
 
   <div class="container">
@@ -256,6 +249,7 @@
    </div>
 
   </div>
-
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
